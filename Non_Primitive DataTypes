@@ -41,3 +41,22 @@ public class Main
  
  }
 }
+
+
+
+
+// Output:
+
+Message:Hello, Java, This is Durga
+This are Durga's marks
+70
+80
+90
+
+ student Details:
+Name: Durga
+Age:27
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
