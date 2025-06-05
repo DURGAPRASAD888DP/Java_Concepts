@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main
+{
+ public static void main(String[] args)
+ {
+   boolean b = true;
+   char ch = 'D';
+   byte    B = 100;
+   short  sh = 10000;
+   int i = 123456789;
+   long l = 9876543245L;
+   float f = 12.98F;
+   double d = 18.88;
+   
+   System.out.println("Boolean is: 1 bit (true/false only)  "+ b);
+   System.out.println("Character is 2 bytes, stores a single character "+ ch);
+   System.out.println("byte is 1 byte = -128 to 127 "+ B);
+   System.out.println("short is primitive data type with 2 bytes = -32,768 to 32,767  "+ sh);
+   System.out.println("int is 4 bytes = -2,147,483,648 to 2,147,483,647: "+ i);
+   System.out.println("Long is 8 bytes = huge range, needs 'L' at the end  "+ l);
+   System.out.println("float is 4 bytes, 'f' at end "+ f);
+   System.out.println("Double is 8 bytes, more precision  "+ d);
+   
+ }
+}
+ 
