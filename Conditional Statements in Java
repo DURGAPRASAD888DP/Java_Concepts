@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class Main
+{
+ public static void main(String[] args)
+ {
+     System.out.println("Enter Student's  Name and age");
+     Scanner sc = new Scanner(System.in);
+     String name = sc.next();
+     int  age = sc.nextInt();
+     System.out.println("Student Name: "+ name );
+     System.out.println(" Student age: "+ age);
+     
+     //First Conditional Statement:
+     
+     // IF working
+     // An if statement in Java is used to make decisions in your code.
+     //It checks a condition, and if it’s true, it runs some code.
+     //If the condition is not true, it skips that code.
+     
+     // Age Checker
+     
+     if(age>=18)
+     System.out.println(name+ " is an adult and age is "+ age );
+ }
+}
+
+
+// Output:
+
+Enter Student's  Name and age
+DurgaPrasadOduri
+27
+Student Name: DurgaPrasadOduri
+ Student age: 27
+DurgaPrasadOduri is an adult and age is 27
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
