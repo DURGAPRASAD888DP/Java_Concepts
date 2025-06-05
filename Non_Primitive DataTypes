@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Main
+{
+ // Creating a simple custom class
+ 
+ static class Student {
+     String name;
+     int age;
+     
+// Creating a Constructor
+
+ Student(String name, int age)
+ {
+     this.name = name;
+     this.age = age;
+     
+ }
+ 
+ void display()
+ {
+     System.out.println("Name: "+ name);
+     System.out.println("Age:"+ age);
+ }
+ }
+ public static void main(String[] args)
+ {
+     String str ="Hello, Java, This is Durga";
+     System.out.println("Message:" + str);
+     
+     int[] marks ={70,80,90};
+     System.out.println("This are Durga's marks");
+     for(int mark: marks){
+     System.out.println(mark);  // mark is variable used in enhanced for loop with integer variable mark
+      }
+ 
+ //Object creation for the custom class
+ 
+ Student student1 = new Student("Durga", 27);
+ System.out.println("\n student Details:");
+ student1.display();
+ 
+ }
+}
